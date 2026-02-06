@@ -184,7 +184,7 @@ buka_data = buka_file(nama_file)
 def tampilkan_data(data_dict):
     #membuat header table
     print("\n=== DATA MAHASISWA ===")
-    print(f"{'NIM' : <10} | {'nama' : <12} | {'nilai' : >5} ") # mengatur ukuran kolom
+    print(f"{'nim' : <10} | {'nama' : <12} | {'nilai' : >5} ") # mengatur ukuran kolom
     '''
     Untuk tampiilan yang rapi, atur lebar kolom
     {NIM: <10}
